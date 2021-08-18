@@ -1,0 +1,98 @@
+.container {
+    padding: 0 10px !important;
+    overflow-y: auto;
+    /* height: 85vh; */
+    margin: 10px 0 0;
+    width: 93vw;
+    max-width: 95vw !important;
+}
+
+#gridContainer {
+    max-height: 800px;
+}
+
+.grid-container {
+    width: inherit !important;
+    flex-grow: 1;
+    margin: 20px 30px !important;
+    display: grid;
+    height: auto;
+}
+
+.grid-item {
+    border: 1px solid #80808073;
+    flex-grow: 1;
+    margin: 30px;
+    display: grid;
+    border-radius: 3px;
+}
+
+.card-panel {
+    display: flex;
+    padding: 10px !important;
+    align-items: center;
+    background-color: rgb(217, 213, 197);
+}
+
+.dx-widget {
+    font-size: 14px !important;
+}
+
+.dx-datagrid .dx-row > td {
+    padding: 15px !important;
+}
+
+.dx-datagrid .dx-column-lines > td {
+    border-left: none !important;
+    border-right: none !important;
+}
+
+.dx-datagrid-pager {
+    border: none !important;
+}
+
+.dx-row .dx-header-row {
+    border-top: 1px solid #ddd;
+}
+
+.dx-datagrid-headers .dx-datagrid-table .dx-row > td,
+.dx-datagrid .dx-column-lines > td {
+    vertical-align: middle !important;
+}
+
+tr:hover {
+    background-color: #80808021;
+}
+
+tbody {
+    border-bottom: 1px solid #c4c4c4;
+}
+
+.dx-toolbar .dx-toolbar-items-container {
+    height: 60px !important;
+}
+
+.dx-datagrid-search-panel {
+    width: 250px !important;
+}
+
+.dx-gridbase-container > .dx-datagrid-rowsview {
+    height: 68vh !important;
+}
+
+.paper-block {
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.loading-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin: auto;
+}
